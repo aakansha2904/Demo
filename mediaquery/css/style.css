@@ -1,0 +1,41 @@
+.item{
+    font-size: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    display: none;
+}
+
+@media  (max-width: 200px){
+    #menu-1{
+        display: block;
+    }
+}
+
+@media (min-width:300px) and (max-width: 500px){
+    #menu-2{
+        display: block;
+        color: lime;
+    }
+}
+
+@media (min-width:500px) and (max-width: 700px){
+    #menu-3{
+        display: block;
+        color: lightsalmon;
+    }
+}
+
+@media (min-width:700px) and (max-width: 900px){
+    #menu-4{
+        display: block;
+    
+    }
+}
+
+@media (min-width:900px) {
+    #menu-5{
+        display: block;
+        color: red;
+    }
+}

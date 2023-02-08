@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form</title>
+</head>
+
+<body>
+    <h2>Text field</h2>
+    <form action="backend.php">
+        <label for="name">Name</label>
+        <input type="text" id="name">
+        <br>
+        <label for="email">Email</label>
+        <input type="email" id="email">
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password">
+        <br>
+        <label for="date">Date:</label>
+        <input type="date" id="date">
+        <br>
+        <label for="eligible">Are you eligible:</label>
+        <input type="checkbox" id="eligible">
+        <br>
+        <label for="age">Age:</label>
+        <input type="number" id="age">
+        <br>
+        <label for="menu">Menu</label>
+        <select name="myMenu" id="menu">
+            <option value="mag" selected>Maggie</option>
+            <option value="pas" selected>Pasta</option>
+        </select>
+        <br>
+        <input type="button" onclick="alert('Hello World!')" value="Click Me!"><br>
+        <label for="myFile">Select a file: </label>
+        <input type="file" id="myFile"><br>
+        <label for="submit">Submit</label>
+        <input type="submit" value="Submit Now" id="submit">
+    </form>
+</body>
+
+</html>
